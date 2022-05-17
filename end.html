@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/end.css    ">
+    <link rel="stylesheet" href="css/mdb.min.css" />
+    <title>Quizz App</title>
+</head>
+
+<body class="bg-dark  ">
+    <div class="container " id="end">
+        <div class="row">
+            <div class="col-12 formContainer">
+                <div class="scoreContainer ">
+                <p id="finalScore">0</p>
+            </div>  
+                <form>
+                    <input type="text" name="username" id="username" placeholder="username">
+                    <button type="submit"
+                     class="btn btn-black" 
+                     id="saveScore" 
+                     onclick="saveHighScore(event)"
+                        disabled
+                    > save
+                    </button>
+                    <a href="/index.html" class="btn btn-black" >Play again!</a>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="js/end.js"></script>
+</body>
+
+</html>

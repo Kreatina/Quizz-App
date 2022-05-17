@@ -1,0 +1,33 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}html{
+    background-color: black ;
+}
+.btn{
+    background-color: black;
+}
+
+#end{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    width: 100%;
+    flex-direction: column;  
+    display: flex;  
+    gap: 1rem;
+}
+input{
+    width: 20rem;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    font-size: 1.8rem;
+    border: none;
+    box-shadow: 0 0.1rem 1rem 0  black;
+
+}

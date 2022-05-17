@@ -1,0 +1,42 @@
+body{
+    width: 100vw;
+    height: 100vh;
+
+}
+.container{
+    box-shadow: black 0px 0px 0px 2px inset, black 10px -10px 0px -3px, black 10px -10px,black  20px -20px 0px -3px, black 20px -20px,black 30px -30px 0px -3px, black 30px -30px, black 40px -40px 0px -3px, black 40px -40px;
+    border-radius: 1rem;
+    width: auto;
+    padding: 1rem 2rem;
+    height: auto    ;
+}
+#finalScore {
+    letter-spacing: .1em;
+    text-shadow: 
+      -1px -1px 1px #111, 
+      2px 2px 1px #080707;
+  }
+#highScore  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.btn{
+
+    width: 100%;
+}
+.btn:hover{
+    box-shadow: 0 0 .45rem .45rem black;
+
+
+}
+
+.high-score:hover{
+    transform: scale(1.25);
+}
+.high-score {
+    
+    list-style: none;
+    
+}
